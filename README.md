@@ -15,9 +15,9 @@ How to use :
 The installation commands
 -------------------------------------
 
-- git clone https://github.com/kurniawandata/xcodepandawarouter
+- git clone https://github.com/kurniawandata/xcodepandawarouter-english-
 
-- cd xcodepandawarouter
+- cd xcodepandawarouter-english-
 
 - chmod -R 777 *
 
