@@ -10,7 +10,7 @@ How to use :
 
 - Make sure your CPU is already installed Ubuntu Server 18.04 with 2 LAN Card.
 
-- If not already installed can download its ISO at http://releases.ubuntu.com/18.04/ubuntu-18.04-live-server-amd64.iso
+- Download ISO ubuntu : http://releases.ubuntu.com/18.04/ubuntu-18.04-live-server-amd64.iso
 
 The installation commands
 -------------------------------------
