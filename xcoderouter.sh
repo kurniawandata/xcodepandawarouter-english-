@@ -53,7 +53,6 @@ case $choice in
 2)  if [ -z "$(ls -l /etc/network/interfaces)" ]; then
     echo "Not detected /etc/network/interfaces"
     else
-    cp support/interfaces /etc/network/
     sudo nano /etc/network/interfaces
     read -p "Do you want to restart eth0 and eth1 connections now? y/n :" -n 1 -r
     echo 
@@ -112,7 +111,7 @@ case $choice in
     sudo iptables -t nat -A PREROUTING -j DNAT -d $ipwan -p tcp --dport $portip --to $iplan
     ;;
 
-8) echo -n "Enter ip LAN : "
+8) echo -n "Enter the ip LAN on the router : "
     read iplan2
     if [ -z "$(ls -A /etc/squid/squid.conf)" ]; then
     echo "Squid is not detected"
@@ -124,7 +123,7 @@ case $choice in
     fi
     ;;
 
-9) echo -n "Enter ip LAN : "
+9) echo -n "Enter the ip LAN on the router : "
     read iplan3
     if [ -z "$(ls -l /etc/squid/squid.conf)" ]; then
     echo "Squid is not detected"
