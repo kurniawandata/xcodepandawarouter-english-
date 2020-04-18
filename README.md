@@ -36,3 +36,11 @@ License
 -------
 
 - GNU General Public License
+
+
+Jika ingin donasi untuk Kurniawan :
+-----------------------------------
+
+![alt text](http://xcodeserver.my.id/gofood.png)
+
+![alt text](http://xcodeserver.my.id/gopay.png)
