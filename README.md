@@ -30,7 +30,7 @@ The installation commands
 Progammer
 ---------
 
-- Programmer: Kurniawan. xcode.or.id. trainingxcode@gmail.com
+- Programmer: Kurniawan. xcode.or.id. E-mail : kurniawan@securityhub.id
 
 License
 -------
